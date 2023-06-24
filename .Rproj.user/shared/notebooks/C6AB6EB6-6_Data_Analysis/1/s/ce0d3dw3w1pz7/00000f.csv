@@ -1,2 +1,0 @@
-"0","ggplot(ChickWeight, aes(x=Time, y=weight, fill=Time)) + "
-"0","  geom_bar(stat = ""summary"", fun=""mean"")"

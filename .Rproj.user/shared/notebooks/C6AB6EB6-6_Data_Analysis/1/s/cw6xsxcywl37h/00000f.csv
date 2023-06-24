@@ -1,2 +1,0 @@
-"0","ChickWeightWide = reshape(ChickWeight, idvar = c(""Chick"", ""Diet""), timevar = ""Time"", direction=""wide"")"
-"0","ChickWeightWide"

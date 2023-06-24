@@ -1,2 +1,0 @@
-"0","ggplot(mtcars, aes(x=vs, y=mpg)) + "
-"0","  geom_bar(stat = ""summary"", fun=""mean"")"

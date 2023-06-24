@@ -1,4 +1,4 @@
-# R_Intro_Winter_2023
+# NIH-R-Introduction
 Introduction to the R programming language for research scientists.
 
 The lessons are separated into notebooks. Each notebook should be able to run as a stand-alone example.
@@ -17,7 +17,7 @@ The Introduction_to_R.pptx presentation has additional guidance on all notebooks
 
 The repo has the following directories to help organize material:
 - notebooks
-    + Where training notebooks should be stored
+    + Where training notebooks are stored
 - data
     + Where all data files (csvs, excel and tab-delimited tables) should be stored
 - images

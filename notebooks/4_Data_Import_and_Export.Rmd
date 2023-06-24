@@ -51,7 +51,7 @@ The file will show up in the files tab to the right with the name `../data/pbc_m
 write.table(iris_mutate,"../data/iris_mutate.txt",row.names=F,sep="\t")
 ```
 
-We can also save the data into a csv format. The syntax will be similar.
+We can also save the data into a csv format. The syntax is very similar.
 ```{r}
 write.csv(iris_mutate,"../data/iris_mutate.csv",row.names=F)
 ```
@@ -77,13 +77,18 @@ Now that we have two data frames loaded, let's check if they are the same.
 identical(iris_mutate_txt, iris_mutate_csv)
 ```
 This shows that even though we saved the data in two formats, when we read the 
-data back into R, the data frames are identical. So how you save your data is up
-to your preference, as long as you specify the correct parameters when saving
-and importing the data.
+data back into R, the data frames are identical. 
+
+So how you save your data is up to your preference, as long as you specify the correct parameters when saving and importing the data.
 
 ## Reading data from a website
-We can load pre-computed data directly from [GEO](https://www.ncbi.nlm.nih.gov/geo/
-) (the gene expression omnibus).  Let's use RNAseq data from 3 adult and 4 embryonic mouse cerebral cortex samples.  This data set (GSE39866) was generated to track transcriptomic changes during brain development. The R package deseq2 was used to normalize and then calculate differential expression for this data set.
+We can load pre-computed data directly from [GEO](https://www.ncbi.nlm.nih.gov/geo/) (the gene expression omnibus).  
+
+Let's use RNAseq data from 3 adult and 4 embryonic mouse cerebral cortex samples.  
+
+This data set (GSE39866) was generated to track transcriptomic changes during brain development. 
+
+The R package deseq2 was used to normalize and then calculate differential expression for this data set.
 ```{r}
 vst <-read_tsv("ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE39nnn/GSE39866/suppl/GSE39866_Mouse.VarianceStabilized.Datagene.txt.gz")
 vst

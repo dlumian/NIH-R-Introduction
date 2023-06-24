@@ -1,2 +1,0 @@
-"0","iris_mutate <- mutate(iris, Sepal.Ratio=Sepal.Width/Sepal.Length) "
-"0","iris_mutate"
