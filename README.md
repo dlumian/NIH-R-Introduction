@@ -15,6 +15,8 @@ is suggested for running the notebooks.
 
 The Introduction_to_R.pptx presentation has additional guidance on all notebooks.
 
+It has been saved in this repo as pdf (`Introduction_to_R.pdf`) to allow viewing on GitHub.
+
 The repo has the following directories to help organize material:
 - notebooks
     + Where training notebooks are stored
@@ -22,4 +24,5 @@ The repo has the following directories to help organize material:
     + Where all data files (csvs, excel and tab-delimited tables) should be stored
 - images
     + Where all image files should be stored including those created by the notebooks
+    + Created by running notebooks
 
